@@ -1,0 +1,164 @@
+/*主页界面*/
+
+* {
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+}
+
+/*页面头部*/
+
+.a1{
+    padding-top: 50px;
+    font-size: 40px;
+    color: #656565;
+    float: left;
+}
+.a{
+    padding-top: 50px;
+    font-size: 40px;
+    color: #656565;
+    float: right;
+}
+.top{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 120px;
+    background-color:  #ff8f29;
+}
+.title_a{
+
+    font-size: 50px;
+    float: left;
+    margin-left: 35%;
+    padding-top: 40px;
+}
+
+/*图标界面*/
+
+
+
+.list{
+    height: 700px;
+    background-color:#ff8f29;
+}
+
+.list>div>img{
+    border-radius:30px;
+    height: 150px;
+    width: 150px;
+}
+.list>div>a{
+  font-size: 30px;
+}
+
+.list>div{
+    float: left;
+    height: 220px;
+    width: 200px;
+    margin: 20px;
+}
+
+/*收款金额输入框*/
+.inputBox{
+    border: 1px #f2f2f2 solid;
+    box-shadow:5px 5px  10px 1px #acacac;
+    border-radius:20px;
+    background-color:#FFFFFF;;
+    position: relative;
+    left: 120px;
+    bottom: 170px;
+    height: 300px;
+    width: 740px;
+    z-index:1;
+    float: left;
+}
+.inputBox>input{
+    background-color:#FFFFFF;
+    float: left;
+    border: 0px;
+    width:600px ;
+    font-size: 100px;
+}
+.inputBox_a1{
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size:100px;
+}
+.inputBox>p{
+    display:block;
+   width: 500px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.inputBox>img{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+/*数字键盘*/
+.in{
+    box-shadow:-10px -10px  15px 2px #e5e5e5 inset;
+
+}
+.content{
+    width:100%;
+    position: relative;
+    bottom: 160px;
+    /*box-shadow: -10px -10px 10px 2px #656565 inset */
+}
+table {
+    overflow: hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    width:90%;
+    height: 600px;
+    margin-left: 5%;
+    font-size: 55px;
+    border-radius:30px;
+}
+td {
+    width: 25%;
+    padding:30px 30px; text-align:center;border: 1px solid #e5e5e5 }
+.fanhui {
+    padding-top:22px;
+    text-shadow: 1px 1px 1px #fff; background:#656565;
+    box-shadow:4px 4px 15px 4px #aaaaaa inset;
+    /*border: 1px solid #656565;*/
+    color: white;
+    font-size: 60px;
+}
+.ac{
+    border: 1px solid #a8a8a8;
+    box-shadow:-10px -10px 15px 4px #aaaaaa inset;
+    background:#BFBFBF;
+    color:#656565
+}
+.qrsk{
+    width: 25%;
+    border: 1px solid #aaaaaa;
+    box-shadow:-10px -10px 15px 4px #d37325 inset;
+    background:#ff8f29;
+    font-size: 55px;
+}
+/*页面底部*/
+.bottom{
+    width: 100%;
+    position:fixed;
+    bottom:0;
+}
+
+.bottom_img{
+    width: 20%;
+    float: left;
+}
+.list>img{
+    background-color:#ff8f29;
+}
+
+
+

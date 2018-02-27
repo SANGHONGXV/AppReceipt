@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>收款</title>
+
+    <link href="css/AppReceipt.css" rel="stylesheet" type="text/css">
+    <script src="js/AppReceipt.js" ></script>
+
+</head>
+<body align="center" >
+<!--页面头部-->
+<div class="top">
+    <a class="a1" href="#">账单</a> <a class="title_a">收款</a><a class="a" href="#">视频教程</a>
+</div>
+<!--页面头部end-->
+<!-- 选择收款方式图标列表-->
+<div class="list">
+    <div>
+        <img  id="img1" name="img" style=" background-color:#ffab28;" onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/UnionPay.png"/>
+        <br/><a>银联快捷</a>
+    </div>
+
+    <div>
+        <img id="img2"  name="img" onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/wx.png"/>
+        <br/><a>微信扫码</a>
+    </div>
+
+    <div>
+        <img id="img3"  name="img"  onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/zfb.png"/>
+        <br/><a>支付宝扫码</a>
+    </div>
+
+    <div>
+        <img id="img4"  name="img" onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/Quick.png"/>
+        <br/><a>云闪付</a>
+    </div>
+
+    <div>
+        <img id="img5"  name="img"  onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/qq.png"/>
+        <br/><a>QQ钱包</a>
+    </div>
+
+    <div>
+        <img id="img6"  name="img" onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/Pay.png"/>
+        <br/><a>银联扫码</a>
+    </div>
+
+    <div>
+        <img id="img7"  name="img"  onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/jingdong.png"/>
+        <br/><a>京东钱包</a>
+    </div>
+
+    <div>
+        <img id="img8"  name="img"  onmouseup="backdrop(img=this.getAttribute('id'))"  src="img/receiptImg/MPOS.png"/>
+        <br/><a>MPOS</a>
+    </div>
+</div>
+<!--选择收款方式图标列表end -->
+
+
+<!--收款金额输入框-->
+<div class="inputBox">
+    <img  id="tp" src="img/receiptImg/UnionPay.png"><p class="inputBox_a">请输入收款金额：</p>
+    <br/>
+    <a class="inputBox_a1">￥</a><input  disabled="disabled" id="sum" class="sum" placeholder="0.00"/>
+</div>
+<!--收款金额输入框end-->
+
+<!--数字键盘-->
+<div class="content">
+    <table cellspacing="0">
+        <tr>
+            <td id="1" onclick="inputBox(box=this.getAttribute('id'))" class="in">1</td>
+            <td id="2" onclick="inputBox(box=this.getAttribute('id'))" class="in">2</td>
+            <td id="3" onclick="inputBox(box=this.getAttribute('id'))" class="in">3</td>
+            <td id="delete" onclick="inputBox(box=this.getAttribute('id'))" class="fanhui" >⇦</td>
+        </tr>
+        <tr>
+            <td id="4" onclick="inputBox(box=this.getAttribute('id'))" class="in">4</td>
+            <td id="5" onclick="inputBox(box=this.getAttribute('id'))" class="in">5</td>
+            <td id="6" onclick="inputBox(box=this.getAttribute('id'))" class="in">6</td>
+            <td  onclick="inputBox(box=this.getAttribute('id'))" class="ac">AC</td>
+        </tr>
+        <tr><td id="7" onclick="inputBox(box=this.getAttribute('id'))" class="in">7</td>
+            <td id="8" onclick="inputBox(box=this.getAttribute('id'))" class="in">8</td>
+            <td id="9" onclick="inputBox(box=this.getAttribute('id'))" class="in">9</td>
+            <td  class="qrsk" rowspan="2">确认收款</td>
+        </tr>
+        <tr>
+            <td id="00" onclick="inputBox(box=this.getAttribute('id'))" class="in"> 00</td>
+            <td id="0" onclick="inputBox(box=this.getAttribute('id'))" class="in">0</td>
+            <td id="." onclick="inputBox(box=this.getAttribute('id'))" class="in">.</td>
+        </tr>
+    </table>
+</div>
+<!--数字键盘end-->
+
+<!--底部标签-->
+<div class="bottom" >
+    <a href="#"> <img class="bottom_img" src="img/receiptImg/user_Bottom_1.png"/></a>
+    <a href="#"> <img class="bottom_img" src="img/receiptImg/user_Bottom_2.png"/></a>
+    <a href="#"> <img class="bottom_img" src="img/receiptImg/user_Bottom_3.png"/></a>
+    <a href="#"> <img class="bottom_img" src="img/receiptImg/user_Bottom_4.1.png"/></a>
+    <a href="#"> <img class="bottom_img" src="img/receiptImg/user_Bottom_5.1.png"/></a>
+</div>
+<!--底部标签end-->
+</body>
+</html>
